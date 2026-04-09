@@ -10,7 +10,7 @@ for f in files:
     
     if f == file:
         print("Found it!")
-        break
+        break #to exit the if block in the loop
 else:
     print("Nope, not here")
 

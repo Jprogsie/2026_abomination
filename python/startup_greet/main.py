@@ -10,17 +10,17 @@ user = os.environ["USER"]
 # These are just key-value pairs that the OS and shell 
 # maintain, like:
 
+
 # USER=apoorv
 # HOME=/home/apoorv
 # PATH=/usr/bin:/bin:...
-
 
 
 # os.environ is just Python reading that block of data that 
 # Linux already handed to the process. You can actually see 
 # all of them by running this in your terminal:
 
-# printenv
+# printenv, bash command
 
 
 now = datetime.now()
