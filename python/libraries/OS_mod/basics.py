@@ -12,6 +12,7 @@ import os #super useful in hacking too
 
 content = os.listdir()
 info = os.stat(content[0])
+print("Content: ", end="")
 print(info)
 
 # st_mode → file permissions
@@ -27,5 +28,7 @@ print(info)
 
 from datetime import datetime
 
+print("Atime: ", end="")
 print(datetime.fromtimestamp(info.st_atime))
+print("Mtime: ", end="")
 print(datetime.fromtimestamp(info.st_mtime))
