@@ -810,17 +810,10 @@ extern int __overflow (FILE *, int);
 # 983 "/usr/include/stdio.h" 3 4
 
 # 2 "main.c" 2
-# 18 "main.c"
 
-# 18 "main.c"
-char msg[] = "Don't get caught in the traffic like froggo";
 
+# 3 "main.c"
 int main() {
-
-    char nickname[] ="A1THEWORST";
-    printf("Apoorv\n");
-
-
-
+    printf("Err");
     return 0;
 }
